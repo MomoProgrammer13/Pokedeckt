@@ -1,7 +1,7 @@
 // Preços das cartas (Cardmarket em EUR e TCGplayer em USD, vindos da TCGdex)
 // e conversão para reais com a cotação do dia.
 const Prices = (() => {
-  const RATES_KEY = 'deckforge:rates';
+  const RATES_KEY = 'pokedeckt:rates';
   const RATES_TTL = 12 * 60 * 60 * 1000; // 12 horas
   const TCG_VARIANTS = {
     normal: 'Normal',

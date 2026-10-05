@@ -4,7 +4,7 @@ function RulesView(root) {
     <section class="page page-narrow">
       <div class="page-head"><div>
         <h1>Regras e ajuda</h1>
-        <p class="muted">O DeckForge aplica as regras básicas de montagem do Pokémon TCG enquanto você monta seu deck.</p>
+        <p class="muted">O Pokedeckt aplica as regras básicas de montagem do Pokémon TCG enquanto você monta seu deck.</p>
       </div></div>
 
       <div class="rules-grid">

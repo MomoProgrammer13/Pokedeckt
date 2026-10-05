@@ -1,6 +1,14 @@
 // Persistência dos decks no navegador (localStorage).
 const Store = (() => {
-  const KEY = 'deckforge:decks';
+  const KEY = 'pokedeckt:decks';
+  const OLD_KEY = 'deckforge:decks'; // nome antigo do projeto
+
+  // Migra decks salvos com o nome antigo para a chave nova.
+  try {
+    const old = localStorage.getItem(OLD_KEY);
+    if (old && !localStorage.getItem(KEY)) localStorage.setItem(KEY, old);
+    localStorage.removeItem(OLD_KEY);
+  } catch { /* armazenamento indisponível */ }
 
   function all() {
     try {

@@ -1,4 +1,4 @@
-# DeckForge
+# Pokedeckt
 
 Criação e organização de decks de Pokémon TCG. Front-end puro (HTML, CSS e JavaScript, sem build) que consome a API pública [TCGdex](https://tcgdex.dev/) em português.
 
